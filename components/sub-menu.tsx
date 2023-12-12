@@ -3,12 +3,10 @@ import React from 'react'
 import {
   NavigationMenu,
   NavigationMenuContent,
-  NavigationMenuIndicator,
   NavigationMenuItem,
   NavigationMenuLink,
   NavigationMenuList,
   NavigationMenuTrigger,
-  NavigationMenuViewport,
   navigationMenuTriggerStyle,
 } from "@/components/ui/navigation-menu"
 import Link from 'next/link'
@@ -17,13 +15,15 @@ import { cn } from '@/lib/utils'
 interface SubMenuProps {
   triggerText: string,
   submenuList: Array<{href: string, label: string}>,
-  active?: boolean
+  active?: boolean,
+  href: string,
 }
 
 const SubMenu: React.FC<SubMenuProps>  = ({
   triggerText,
   submenuList,
-  active
+  active,
+  href
 }) => {
   return (
     <NavigationMenu>
@@ -34,8 +34,12 @@ const SubMenu: React.FC<SubMenuProps>  = ({
               'text-sm font-medium transition-colors hover:text-black',
               active ? 'text-black dark:text-white' : 'text-neutral-500'
             )}
-          >{triggerText}</NavigationMenuTrigger>
-          <NavigationMenuContent className=''>
+          >
+            <Link href={href}>
+              {triggerText}
+            </Link>
+          </NavigationMenuTrigger>
+          <NavigationMenuContent>
             {submenuList.map(item => {
               return(
               <Link href={item.href} legacyBehavior passHref className='w-full'>

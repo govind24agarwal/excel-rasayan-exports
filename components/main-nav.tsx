@@ -24,28 +24,33 @@ const MainNav: React.FC<MainNavProps> = ({
       label: 'Our Products',
       active: pathname === `/products`,
       component: (
-      <SubMenu triggerText="Our Products" active={pathname === `/products`} submenuList={[
-        {
-          href: `/products`,
-          label: 'Insecticides',
-        },
-        {
-          href: `/products`,
-          label: 'Herbicides',
-        },
-        {
-          href: `/products`,
-          label: 'Fungicides',
-        },
-        {
-          href: `/products`,
-          label: 'Plant Growth Regulators',
-        },
-        {
-          href: `/products`,
-          label: 'View List',
-        },
-      ]}/>
+      <SubMenu
+        triggerText="Our Products"
+        active={pathname === `/products`}
+        href='/products'
+        submenuList={[
+          {
+            href: `/products/insecticides`,
+            label: 'Insecticides',
+          },
+          {
+            href: `/products/herbicides`,
+            label: 'Herbicides',
+          },
+          {
+            href: `/products/fungicides`,
+            label: 'Fungicides',
+          },
+          {
+            href: `/products/plant-growth-regulators`,
+            label: 'Plant Growth Regulators',
+          },
+          {
+            href: `/products/list-view`,
+            label: 'View List',
+          },
+        ]}
+      />
       )
     },
     {
