@@ -16,11 +16,11 @@ const ProductTypeCard: React.FC<ProductTypeCard> = ({
   description
 }) => {
   return (
-    <Link href={url} className='border p-4 flex flex-col justify-center items-center pt-8'>
+    <Link href={url} className='border p-4 flex flex-col justify-center items-center pt-8 shadow-lg'>
       <Image
         src={imageUrl}
         alt={headingText}
-        className='object-cover mb-8'
+        className='object-cover mb-8 rounded-md'
         width={300}
         height={300}
       />

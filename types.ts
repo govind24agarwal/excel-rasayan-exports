@@ -3,6 +3,11 @@ export interface Product {
   compnay: string;
   chemical: string;
   description?: string;
-  price: string;
+  price?: string;
   isFeatured: boolean;
+  imageUrl: string;
+  categoryId: string;
+  crop: string;
+  dose: string;
+  packing: string;
 };

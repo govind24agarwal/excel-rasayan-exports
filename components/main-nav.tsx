@@ -46,7 +46,7 @@ const MainNav: React.FC<MainNavProps> = ({
             label: 'Plant Growth Regulators',
           },
           {
-            href: `/products/list-view`,
+            href: `/list-view`,
             label: 'View List',
           },
         ]}
