@@ -20,7 +20,7 @@ const ProductsPage: React.FC<ProductsPageProps> = ({
   }
 
   return (
-    <Container>
+    <Container className='mb-16'>
       <div className='h-40 md:h-52 flex justify-center items-center'>
         <h1 className='text-4xl md:text-5xl font-semibold uppercase'>{params.productId}</h1>
       </div>
