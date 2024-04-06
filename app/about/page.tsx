@@ -30,7 +30,7 @@ const AboutPage = () => {
             src='/images/about-page/section-2a.jpg'
           />
           <h2 className='text-3xl text-center'>Cultivating Sustainable Futures</h2>
-          <p className='text-base text-center'>At Excel Rasayan Export, we're dedicated to revolutionising agriculture with an enduring commitment. We promise to lead in sustainable innovation, prioritise environmental stewardship, empower farming communities, build transparent partnerships, and shoulder global responsibilities. Envisioning a future of positive change, we strive to sow the seeds of innovation, sustainability, and prosperity for farmers worldwide. Join us at Excel Rasayan Export as we cultivate a brighter, more sustainable tomorrow.</p>
+          <p className='text-base text-center'>{`At Excel Rasayan Export, we're dedicated to revolutionising agriculture with an enduring commitment. We promise to lead in sustainable innovation, prioritise environmental stewardship, empower farming communities, build transparent partnerships, and shoulder global responsibilities. Envisioning a future of positive change, we strive to sow the seeds of innovation, sustainability, and prosperity for farmers worldwide. Join us at Excel Rasayan Export as we cultivate a brighter, more sustainable tomorrow.`}</p>
         </div>
         <div className='flex flex-col gap-y-6 p-4 justify-top items-center'>
           <img

@@ -46,18 +46,18 @@ export default function Home() {
   return (
     <main>
       {/* Banner / Hero Section */}
-      <div className="min-h-[90vh] bg-[url('/images/home-page/bg-1.png')] bg-no-repeat bg-cover relative flex flex-col">
-        <h1 className='w-full text-center pt-12 pb-4 lg:py-12 text-5xl lg:text-7xl text-white'>EXCEL RASAYAN EXPORT</h1>
+      <div className="min-h-[90vh] bg-[url('/images/home-page/bg-1a.png')] bg-no-repeat bg-cover relative flex flex-col">
+        <h1 className='w-full text-center pt-12 pb-4 lg:py-12 text-5xl lg:text-7xl text-black'>EXCEL RASAYAN EXPORT</h1>
         <div className='grid grid-cols-1 md:grid-cols-3 flex-1'>
-          <div className='flex flex-col lg:mt-24 items-center lg:col-start-2 lg:col-span-2'>
-            <p className='text-2xl lg:text-3xl text-white text-center lg:text-left mt-8 lg:mt-16 w-full'>Your Gateway to Global Agriculture Solutions.</p>
-            <p className='lg:text-lg text-white text-center lg:text-left mt-4 lg:mt-2 max-w-4xl mx-2 lg:mr-auto'>From insecticides that shield to herbicides that nurture, we export a spectrum of crop-enhancing products. Unleash the potential of your harvest with our premium chemicals.</p>
+          <div className='flex flex-col lg:mt-4 items-center lg:col-start-2 lg:col-span-2'>
+            <p className='text-2xl lg:text-3xl text-black text-center lg:text-left mt-8 lg:mt-16 w-full'>Your Gateway to Global Agriculture Solutions.</p>
+            <p className='lg:text-lg text-black text-center lg:text-left mt-4 lg:mt-2 max-w-4xl mx-2 lg:mr-auto'>From insecticides that shield to herbicides that nurture, we export a spectrum of crop-enhancing products. Unleash the potential of your harvest with our premium chemicals.</p>
             <a href='/products' className='p-4 bg-white text-black rounded-full mt-6 lg:mt-12'>View Products</a>
           </div>
           <div className=''>
             <img
-              src='/images/home-page/hero-1.png'
-              className='absolute left-0 bottom-0 origin-bottom scale-75'
+              src='/images/home-page/hero-1a.png'
+              className='absolute -left-[35%] bottom-0 origin-bottom scale-[30%]'
             />
           </div>
         </div>
@@ -67,25 +67,25 @@ export default function Home() {
         <h2 className="text-5xl lg:text-5xl mx-auto">Our Focus</h2>
         <div className="mb-6 lg:mb-12 mt-1 w-44 lg:w-44 h-1 rounded-xl bg-stone-600"></div>
         <div className="flex overflow-y-auto items-center gap-4 justify-between w-full px-8">
-          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
+          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
             <Sprout size={60} className="text-stone-600"/>
-            <p className="text-lg text-center">Product Quality Assurance</p>
+            <p className="text-lg text-center dark:text-stone-600">Product Quality Assurance</p>
           </div>
-          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
+          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
             <Globe2 size={60} className="text-stone-600"/>
-            <p className="text-lg text-center">Global Regulatory Compliance</p>
+            <p className="text-lg text-center dark:text-stone-600">Global Regulatory Compliance</p>
           </div>
-          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
+          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
             <Microscope size={60} className="text-stone-600"/>
-            <p className="text-lg text-center">Innovation and Research</p>
+            <p className="text-lg text-center dark:text-stone-600">Innovation and Research</p>
           </div>
-          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
+          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
             <Truck size={60} className="text-stone-600"/>
-            <p className="text-lg text-center">Reliable Supply Chain</p>
+            <p className="text-lg text-center dark:text-stone-600">Reliable Supply Chain</p>
           </div>
-          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
+          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
             <UserPlus2 size={60} className="text-stone-600"/>
-            <p className="text-lg text-center">Customer Support and Education</p>
+            <p className="text-lg text-center dark:text-stone-600">Customer Support and Education</p>
           </div>
         </div>
       </div>
