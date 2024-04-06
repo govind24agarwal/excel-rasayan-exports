@@ -42,7 +42,7 @@ const SubMenu: React.FC<SubMenuProps>  = ({
           <NavigationMenuContent>
             {submenuList.map(item => {
               return(
-              <Link href={item.href} legacyBehavior passHref className='w-full'>
+              <Link key={item.label} href={item.href} legacyBehavior passHref className='w-full'>
                 <NavigationMenuLink
                   className={cn(navigationMenuTriggerStyle(),"px-4 w-full whitespace-nowrap justify-start pr-20")}
                 >

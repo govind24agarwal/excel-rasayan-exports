@@ -132,7 +132,7 @@ export default function Home() {
         <h2 className="text-3xl mb-8 text-center">Featured Products</h2>
         <div className='flex gap-y-6 gap-x-8 lg:mx-8 mx-4 overflow-y-auto'>
           {featuredProducts.map(product => (
-            <ProductCard className="lg:min-w-[15%] min-w-[55%] mb-2" data={product}/>
+            <ProductCard key={product.id} className="lg:min-w-[15%] min-w-[55%] mb-2" data={product}/>
           ))}
         </div>
       </div>
