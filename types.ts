@@ -7,7 +7,8 @@ export interface Product {
   isFeatured: boolean;
   imageUrl: string;
   categoryId: string;
-  crop: string;
-  dose: string;
+  crop: Array<any>;
+  dose: Array<String>;
+  targetPest: Array<String>;
   packing: string;
 };
