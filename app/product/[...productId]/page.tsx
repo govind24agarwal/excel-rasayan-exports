@@ -61,9 +61,9 @@ const ProductDetailsPage: React.FC<ProductsDetailsPageProps> = ({
             </tr>
           </thead>
           <tbody>
-              {product?.crop.map((crop, index)=> {
+              {product?.crop.map( crop => {
                 return (
-                  <tr>
+                  <tr key={crop.crop}>
                     <td className='py-2 pl-1 capitalize'>{crop.crop}</td>
                     <td className='py-2 pl-1 capitalize'>{crop.target}</td>
                     <td className='py-2 pl-1 capitalize'>{crop.dose}</td>
