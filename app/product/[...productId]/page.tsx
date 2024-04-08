@@ -55,18 +55,18 @@ const ProductDetailsPage: React.FC<ProductsDetailsPageProps> = ({
         <table className='w-full my-12 border-2'>
           <thead>
             <tr className='bg-green-700'>
-              <th className='py-2 text-white pl-1'>Crops</th>
+              <th className='py-2 text-white pl-1 min-w-[150px]'>Crops</th>
               <th className='py-2 text-white pl-1'>Target Pest/ Disease</th>
-              <th className='py-2 text-white pl-1'>Dose</th>
+              <th className='py-2 text-white pl-1 min-w-[150px]'>Dose</th>
             </tr>
           </thead>
           <tbody>
               {product?.crop.map( crop => {
                 return (
                   <tr key={crop.crop}>
-                    <td className='py-2 pl-1 capitalize'>{crop.crop}</td>
-                    <td className='py-2 pl-1 capitalize'>{crop.target}</td>
-                    <td className='py-2 pl-1 capitalize'>{crop.dose}</td>
+                    <td className='py-2 pl-1 capitalize pr-2'>{crop.crop}</td>
+                    <td className='py-2 pl-1 capitalize pr-2'>{crop.target}</td>
+                    <td className='py-2 pl-1 capitalize pr-2'>{crop.dose}</td>
                   </tr>
                 )
               })}
