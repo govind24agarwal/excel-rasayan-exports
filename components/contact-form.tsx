@@ -31,23 +31,28 @@ export default function ContactForm() {
       }),
     });
 
-    const { msg, success } = await res.json();
-    setError(msg);
+    const { msg, status } = await res.json();
 
-    setTimeout(()=> setError({
-      name: false,
-      mobileNumber: false
-    }),5000)
+    if(msg?.name || msg?.mobileNumber){
+      setError(msg);
+      setTimeout(()=> setError({
+        name: false,
+        mobileNumber: false
+      }),5000)
+  
+      toast("Please fill necessary details",{})
 
-    if(msg.name || msg.mobileNumber) toast("Please fill necessary details",{})
-
-    if (success) {
+    }
+    else if (status) {
       setFullname("");
       setEmail("");
       setMessage("");
       setMobileNumber("");
 
       toast("Contact details recieved.")
+    }
+    else{
+      toast("Unable to contact Admin right now, Please try again later",{})
     }
   };
 

@@ -59,19 +59,9 @@ const MainNav: React.FC<MainNavProps> = ({
       active: pathname === `/about`,
     },
     {
-      href: `/manufactoring`,
-      label: 'Manufactoring',
-      active: pathname === `/manufactoring`,
-    },
-    {
-      href: `/research-development`,
-      label: 'R & D',
-      active: pathname === `/research-development`,
-    },
-    {
-      href: `/our-presence`,
-      label: 'Our Presence',
-      active: pathname === `/our-presence`,
+      href: `/contact-us`,
+      label: 'Contact us',
+      active: pathname === `/contact-us`,
     }
   ]
 

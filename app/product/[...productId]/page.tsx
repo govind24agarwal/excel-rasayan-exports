@@ -16,9 +16,9 @@ const ProductDetailsPage: React.FC<ProductsDetailsPageProps> = ({
 
   return (
     <main>
-      <div className='bg-slate-100'>
+      <div className='bg-slate-100 py-6'>
         <div className='grid grid-col-1 md:grid-cols-2 mx-auto max-w-6xl min-h-[60vh] bg-slate-100'>
-          <div className='flex items-center justify-center max-w-[300px] mx-auto md:max-w-full mb-16'>
+          <div className='flex items-center justify-center max-w-[300px] mx-auto md:max-w-full'>
             <img
               src={product?.imageUrl}
               className='w-full h-auto'

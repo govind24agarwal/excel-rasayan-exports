@@ -2,7 +2,6 @@ import Link from "next/link";
 
 import MainNav from "@/components/main-nav";
 import Container from "@/components/ui/container";
-import { ThemeToggle } from "./theme-toggle";
 
 const Navbar = async () => {
 
@@ -14,9 +13,6 @@ const Navbar = async () => {
             <p className="font-bold text-xl">EXCEL RASAYAN EXPORT</p>
           </Link>
           <MainNav />
-          <div className="flex items-center space-x-4">
-          <ThemeToggle />
-        </div>
         </div>
       </Container>
     </div>
