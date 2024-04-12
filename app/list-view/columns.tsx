@@ -49,9 +49,9 @@ export const columns: ColumnDef<Product>[] = [
       return (
         <div className="text-left font-medium">
           {
-            cropData.map((crop) => {
+            cropData.map((crop,idx) => {
               return(
-                <div className={cn("flex border", row.index % 2 ? 'border-white' : '')}>
+                <div key={idx} className={cn("flex border", row.index % 2 ? 'border-white' : '')}>
                   <p className={cn("flex-1 border-r ml-2 p-1", row.index % 2 ? 'border-white' : '')}>{crop.crop}</p>
                   <p className="flex-1 ml-2 p-1">{crop.target}</p>
                 </div>
