@@ -16,7 +16,7 @@ const ProductTypeCard: React.FC<ProductTypeCard> = ({
   description
 }) => {
   return (
-    <Link href={url} className='border p-4 flex flex-col justify-center items-center pt-8 shadow-lg'>
+    <Link href={url} className='border p-2 md:p-4 flex flex-col justify-center items-center py-3 md:pt-8 shadow-lg'>
       <Image
         src={imageUrl}
         alt={headingText}
