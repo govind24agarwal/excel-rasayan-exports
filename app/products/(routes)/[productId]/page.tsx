@@ -21,10 +21,10 @@ const ProductsPage: React.FC<ProductsPageProps> = ({
 
   return (
     <Container className='mb-16'>
-      <div className='h-40 md:h-52 flex justify-center items-center'>
-        <h1 className='text-4xl md:text-5xl font-semibold uppercase'>{params.productId}</h1>
+      <div className='h-28 md:h-52 flex justify-center items-center'>
+        <h1 className='text-3xl md:text-5xl font-semibold uppercase'>{params.productId}</h1>
       </div>
-      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-y-6 gap-x-8 mx-8'>
+      <div className='grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-y-6 gap-x-4 md:gap-x-8 mx-4 md:mx-8'>
         {
           productsData.filter(product => product.categoryId === params.productId).map(product => (
             <ProductCard key={product.id} data={product} />
