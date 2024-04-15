@@ -3,7 +3,7 @@ import ProductTypeCard from './components/product-type-card'
 
 const page = () => {
   return (
-    <div className='p-4 my-16'>
+    <div className='p-4 mt-8 mb-16 md:my-16'>
       <div className='mx-auto max-w-[100rem] px-2 md:px-12'>
         <h1 className='w-full text-center text-2xl md:text-3xl font-semibold mb-6 md:mb-16'>Our Products</h1>
         <div className='grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
