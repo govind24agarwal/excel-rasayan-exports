@@ -43,7 +43,7 @@ const page = () => {
   )
 
   return (
-    <main className='bg-slate-100 min-h-[85vh] flex items-start justify-center relative overflow-hidden'>
+    <main className='bg-emerald-800/40 min-h-[85vh] flex items-start justify-center relative overflow-hidden'>
       <div className='w-full flex justify-center items-center p-4 text-4xl max-w-6xl flex-col'>
         <h1>How would you like to contact us?</h1>
         <div className='flex w-full mt-12 gap-8'>
