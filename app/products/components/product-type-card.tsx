@@ -25,7 +25,7 @@ const ProductTypeCard: React.FC<ProductTypeCard> = ({
         height={300}
       />
       <h2 className='text-sm md:text-lg font-semibold uppercase border-b border-teal-600 md:mb-6 text-center'>{headingText}</h2>
-      <p className='hidden md:block text-sm text-center text-neutral-600 dark:text-neutral-400'>{description}</p>
+      <p className='hidden md:block text-base text-center text-neutral-600 dark:text-neutral-400'>{description}</p>
     </Link>
   )
 }
