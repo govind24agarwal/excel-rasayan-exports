@@ -64,35 +64,35 @@ export default function Home() {
       </div>
       {/* qualities */}
       <div className="flex flex-col w-full items-center my-12 lg:mb-20 lg:mt-12">
-        <h2 className="text-5xl lg:text-5xl mx-auto">Our Focus</h2>
-        <div className="mb-6 lg:mb-12 mt-1 w-44 lg:w-44 h-1 rounded-xl bg-stone-600"></div>
-        <div className="flex overflow-y-auto items-center gap-4 justify-between w-full px-8">
-          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
+        <h2 className="text-3xl md:text-5xl mx-auto">Our Focus</h2>
+        <div className="mb-6 lg:mb-12 mt-1 w-32 md:w-44 h-1 rounded-xl bg-stone-600"></div>
+        <div className="flex overflow-y-auto items-stretch gap-4 justify-between w-full px-8">
+          <div className="min-w-[45%] md:min-w-[18%] md:w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
             <Sprout size={60} className="text-stone-600"/>
-            <p className="text-lg text-center dark:text-stone-600">Product Quality Assurance</p>
+            <p className="text-sm md:text-lg text-center dark:text-stone-600">Product Quality Assurance</p>
           </div>
-          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
+          <div className="min-w-[45%] md:min-w-[18%] md:w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
             <Globe2 size={60} className="text-stone-600"/>
-            <p className="text-lg text-center dark:text-stone-600">Global Regulatory Compliance</p>
+            <p className="text-sm md:text-lg text-center dark:text-stone-600">Global Regulatory Compliance</p>
           </div>
-          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
+          <div className="min-w-[45%] md:min-w-[18%] md:w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
             <Microscope size={60} className="text-stone-600"/>
-            <p className="text-lg text-center dark:text-stone-600">Innovation and Research</p>
+            <p className="text-sm md:text-lg text-center dark:text-stone-600">Innovation and Research</p>
           </div>
-          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
+          <div className="min-w-[45%] md:min-w-[18%] md:w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
             <Truck size={60} className="text-stone-600"/>
-            <p className="text-lg text-center dark:text-stone-600">Reliable Supply Chain</p>
+            <p className="text-sm md:text-lg text-center dark:text-stone-600">Reliable Supply Chain</p>
           </div>
-          <div className="min-w-[230px] w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
+          <div className="min-w-[45%] md:min-w-[18%] md:w-[300px] aspect-square rounded-lg bg-white dark:bg-slate-300 shadow-lg p-8 border flex flex-col gap-y-6 items-center justify-center mb-2">
             <UserPlus2 size={60} className="text-stone-600"/>
-            <p className="text-lg text-center dark:text-stone-600">Customer Support and Education</p>
+            <p className="text-sm md:text-lg text-center dark:text-stone-600">Customer Support and Education</p>
           </div>
         </div>
       </div>
       {/* Our Products */}
       <div className="px-4 lg:px-8 py-8 lg:py-12 flex flex-col items-center bg-[url('/images/home-page/bg-2.png')] bg-no-repeat bg-cover lg:mt-2 m-1">
         <div className="w-full py-8 px-4 bg-white rounded-lg">
-          <h2 className="text-3xl lg:pl-0 lg:text-5xl mb-2 mr-auto text-stone-900 font-semibold">Our Products</h2>
+          <h2 className="text-3xl lg:pl-0 md:text-5xl mb-2 mr-auto text-stone-900 font-semibold">Our Products</h2>
           <p className="mb-8 lg:pl-0 mr-auto text-stone-900">Discover our solutions to simplify your farming</p>
           {/* <div className="mb-6 lg:mb-12 mt-1 w-44 lg:w-60 h-1 rounded-xl bg-stone-600"></div> */}
           <div className="flex flex-col lg:flex-row items-center gap-4 justify-center w-full px-8">

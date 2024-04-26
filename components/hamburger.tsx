@@ -26,17 +26,16 @@ const Hamburger: React.FC<HamburgerProps> = ({
       <SheetTrigger>
         <MenuIcon size={20} className="text-gray-600" />
       </SheetTrigger>
-      <SheetContent side="left" className='bg-[#379143] overflow-hidden'>
-        <div className='flex flex-col gap-5 mt-4'>
+      <SheetContent side="left" className='bg-gradient-to-b from-[#2b7535] to-[#399e47] overflow-hidden'>
+        <div className='flex flex-col gap-5 mt-12'>
           {routes.map((route) => {
             return (
-              <div onClick={() => setIsShowMenu(false)} className='flex items-center justify-left gap-4 w-full'>
+              <div key={route.href} onClick={() => setIsShowMenu(false)} className='flex items-center justify-left gap-4 w-full'>
                 {route.icon}
                 <Link
-                  key={route.href}
                   href={route.href}
                   className={cn(
-                    'text-sm font-medium transition-colors hover:text-black text-white',
+                    'text-lg font-medium transition-colors hover:text-black text-white',
                     route.active ? 'text-white' : ''
                   )}
                 >

@@ -6,7 +6,7 @@ import { usePathname } from "next/navigation";
 import { cn } from "@/lib/utils"
 import SubMenu from "./sub-menu";
 import Hamburger from "@/components/hamburger";
-import { HomeIcon } from "lucide-react";
+import { BugOff, Building2, HomeIcon, Mail, SprayCan } from "lucide-react";
 interface MainNavProps {
 }
 
@@ -19,13 +19,13 @@ const MainNav: React.FC<MainNavProps> = ({
       href: `/`,
       label: 'Home',
       active: pathname === `/`,
-      icon: <HomeIcon size={20} className="text-white" />
+      icon: <HomeIcon size={24} className="text-white" />
     },
     {
       href: `/products`,
       label: 'Our Products',
       active: pathname === `/products`,
-      icon: <HomeIcon size={20} className="text-white" />,
+      icon: <BugOff size={24} className="text-white -scale-x-100" />,
       submenuList: [
         {
           href: `/products/insecticides`,
@@ -82,14 +82,14 @@ const MainNav: React.FC<MainNavProps> = ({
       href: `/about`,
       label: 'About us',
       active: pathname === `/about`,
-      icon: <HomeIcon size={20} className="text-white" />
+      icon: <Building2 size={24} className="text-white" />
 
     },
     {
       href: `/contact-us`,
       label: 'Contact us',
       active: pathname === `/contact-us`,
-      icon: <HomeIcon size={20} className="text-white" />
+      icon: <Mail size={24} className="text-white" />
     }
   ]
   
@@ -103,7 +103,7 @@ const MainNav: React.FC<MainNavProps> = ({
             key={route.href}
             href={route.href}
             className={cn(
-              'text-sm font-medium transition-colors hover:text-black',
+              'z-20 text-sm font-medium transition-colors hover:text-black',
               route.active ? 'text-black dark:text-white' : 'text-neutral-500'
             )}
           >
