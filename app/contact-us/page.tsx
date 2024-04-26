@@ -44,16 +44,16 @@ const page = () => {
 
   return (
     <main className='bg-emerald-800/40 min-h-[85vh] flex items-start justify-center relative overflow-hidden'>
-      <div className='w-full flex justify-center items-center p-4 text-4xl max-w-6xl flex-col'>
-        <h1>How would you like to contact us?</h1>
-        <div className='flex w-full mt-12 gap-8'>
-          <div className='w-[50%] text-base bg-white px-6 py-10'>
+      <div className='w-full flex justify-center items-center p-4 mb-12 text-4xl max-w-6xl flex-col'>
+        <h1 className='text-xl md:text-4xl'>How would you like to contact us?</h1>
+        <div className='flex flex-col md:flex-row w-full mt-12 gap-8'>
+          <div className='w-full md:w-[50%] text-base bg-white px-6 py-10'>
             <h2 className='text-2xl'>Request a call.</h2>
             <p className='text-[#969696] mb-4'>Give us your information and we will call you back.</p>
             <ContactForm />
           </div>
 
-          <div className='w-[50%] text-base bg-white px-6 py-10'>
+          <div className='w-full md:w-[50%] text-base bg-white px-6 py-10'>
             <div className="mb-6">
               <h2 className="text-xl mb-1 font-semibold">Contact Information</h2>
               <p className="text-stone-600">Contact us for any buyer related queries</p>
@@ -118,12 +118,16 @@ const page = () => {
           </div>
         </div>
       </div>
+      {/* <div className='block md:hidden w-96 h-96 absolute rounded-full bg-white/30 -top-[10%] -right-12'></div> */}
+      <div className='hidden md:block w-44 h-44 absolute rounded-full bg-white/30 -top-12 -left-12'></div>
+      <div className='hidden md:block w-[15%] h-24 absolute rounded-full bg-white/30 top-[50%] -right-12'></div>
       {/* <div className='w-[300px] h-[300px] bg-white absolute -bottom-[10%] right-[20%] rounded-[100%] overflow-hidden'>
         <img className='w-full h-full object-fill	' src="/images/about-page/section-1.jpg" />
       </div>
       <div className='w-[100px] h-[100px]  bg-white absolute bottom-[40%] right-[5%] rounded-[100%] overflow-hidden '>
         <img className='w-full h-full object-fill	' src="/images/about-page/section-2a.jpg" />
       </div> */}
+      <div className='hidden md:block absolute w-44 h-44 rounded-md -bottom-24 left-1/2 bg-white/30'></div>
     </main>
   )
 }

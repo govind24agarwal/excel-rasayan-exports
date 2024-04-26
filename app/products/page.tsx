@@ -3,9 +3,9 @@ import ProductTypeCard from './components/product-type-card'
 
 const page = () => {
   return (
-    <div className='p-4 mt-6 mb-12 md:my-16'>
+    <div className='bg-emerald-800/40 flex items-center p-4 md:py-16 min-h-[85vh]'>
       <div className='mx-auto max-w-[100rem] px-2 md:px-12'>
-        <h1 className='w-full text-center text-2xl md:text-3xl font-semibold mb-6 md:mb-16'>Our Products</h1>
+        <h1 className='w-full text-center text-2xl md:text-3xl font-semibold mb-6 md:mb-16 -mt-6 md:-mt-16'>Our Products</h1>
         <div className='grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6'>
           <ProductTypeCard
             url='/products/insecticides'
@@ -33,6 +33,7 @@ const page = () => {
           />
         </div>
       </div>
+      <div className='absolute w-44 h-44 rounded-md -bottom-12 left-1/2 bg-white/30'></div>
     </div>
   )
 }
