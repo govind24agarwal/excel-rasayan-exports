@@ -28,7 +28,7 @@ const Banner = () => {
           <div className='absolute top-[5%] md:top-[10%] left-[50%] -translate-x-[50%] flex flex-col gap-2 md:gap-4 items-center'>
             <h1 className='text-center text-xl text-nowrap md:text-7xl'>EXCEL RASAYAN EXPORT</h1>
             <p className='text-sm lg:text-3xl text-center'>Your Gateway to Global Agriculture Solutions.</p>
-            <Link href='/products' className='p-1 px-2 md:p-4 bg-white rounded-full w-min text-nowrap text-base md:text-xl mt-12'>View Products</Link>
+            <Link href='/products' className='p-1 px-2 md:p-4 bg-white rounded-full text-nowrap text-base md:text-xl mt-12'>View Products</Link>
           </div>
         </CarouselItem>
         <CarouselItem className='md:h-min-h-[80vh] md:max-h-[80vh] max-w-[100vw] flex relative text-white'>
@@ -36,7 +36,7 @@ const Banner = () => {
           <div className='absolute top-[5%] md:top-[10%] left-[50%] -translate-x-[50%] flex flex-col gap-2 md:gap-4 items-center'>
             <h1 className='text-center text-xl text-nowrap md:text-7xl'>EXCEL RASAYAN EXPORT</h1>
             <p className='text-sm lg:text-3xl text-center'>Your Gateway to Global Agriculture Solutions.</p>
-            <Link href='/products' className='p-1 px-2 md:p-4 bg-white rounded-full w-min text-nowrap text-base md:text-xl mt-12 text-black'>View Products</Link>
+            <Link href='/products' className='p-1 px-2 md:p-4 bg-white rounded-full text-nowrap text-base md:text-xl mt-12 text-black'>View Products</Link>
           </div>
         </CarouselItem>
       </CarouselContent>
