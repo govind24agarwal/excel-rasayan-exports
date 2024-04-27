@@ -16,6 +16,7 @@ import {
 import Link from "next/link"
 import { productsData } from "@/data";
 import ProductCard from "./products/(routes)/[productId]/components/productCard";
+import Banner from "@/components/banner";
 
 export default function Home() {
   const featuredProducts = productsData.filter(product => product.isFeatured)
@@ -46,21 +47,8 @@ export default function Home() {
   return (
     <main>
       {/* Banner / Hero Section */}
-      <div className="min-h-[90vh] bg-[url('/images/home-page/bg-1a.png')] bg-no-repeat bg-cover relative flex flex-col">
-        <h1 className='w-full text-center pt-12 pb-4 lg:py-12 text-5xl lg:text-7xl text-black'>EXCEL RASAYAN EXPORT</h1>
-        <div className='grid grid-cols-1 md:grid-cols-3 flex-1'>
-          <div className='flex flex-col lg:mt-4 items-center lg:col-start-2 lg:col-span-2'>
-            <p className='text-2xl lg:text-3xl text-black text-center lg:text-left mt-8 lg:mt-16 w-full'>Your Gateway to Global Agriculture Solutions.</p>
-            <p className='lg:text-lg text-black text-center lg:text-left mt-4 lg:mt-2 max-w-4xl mx-2 lg:mr-auto'>From insecticides that shield to herbicides that nurture, we export a spectrum of crop-enhancing products. Unleash the potential of your harvest with our premium chemicals.</p>
-            <a href='/products' className='p-4 bg-white text-black rounded-full mt-6 lg:mt-12'>View Products</a>
-          </div>
-          <div className=''>
-            <img
-              src='/images/home-page/hero-1a.png'
-              className='absolute -left-[35%] bottom-0 origin-bottom scale-[30%]'
-            />
-          </div>
-        </div>
+      <div className="md:min-h-[80vh] md:max-h-[80vh] max-w-[100vw] bg-white">
+        <Banner />
       </div>
       {/* qualities */}
       <div className="flex flex-col w-full items-center my-12 lg:mb-20 lg:mt-12">
