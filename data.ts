@@ -696,9 +696,9 @@ export const productsData: Product[] = [
   packing: '250 ml, 500 ml, 1 ltr,'
 },{
   id: '17',
-  compnay: 'MISSING',
+  compnay: 'Excel Lambda SC',
   chemical: 'Thiamethoxam 12.6% + Lambda Cyhalothrin 9.5% Z.C',
-  description: 'MISSING (Thiamethoxam 12.6% + Lambda Cyhalothrin 9.5% Z.C) is a combination of two different groups of insecticide which contains active ingredients of Thiamethoxam 12.6% + Lambda-cyhalothrin 9.5% ZC. having quick stomach and contact activity and is recommended to control Aphids, Jassids, Thrips & Bolworms in Cotton, Aphid, Shootfly, Stem borer in Maize, Leaf hopper, leaf eating caterpillars in groundnut, Stem fly, semilooper, girdle beetle in Soybean, Thrips & fruit borer in Chilii, thrips, semilooper, tea mosquito bug in tea, thrips, whiteflies, fruit borer in tomato crop',
+  description: 'Excel Lambda SC (Thiamethoxam 12.6% + Lambda Cyhalothrin 9.5% Z.C) is a combination of two different groups of insecticide which contains active ingredients of Thiamethoxam 12.6% + Lambda-cyhalothrin 9.5% ZC. having quick stomach and contact activity and is recommended to control Aphids, Jassids, Thrips & Bolworms in Cotton, Aphid, Shootfly, Stem borer in Maize, Leaf hopper, leaf eating caterpillars in groundnut, Stem fly, semilooper, girdle beetle in Soybean, Thrips & fruit borer in Chilii, thrips, semilooper, tea mosquito bug in tea, thrips, whiteflies, fruit borer in tomato crop',
   isFeatured: true,
   imageUrl: '/images/products/image_8.webp',
   categoryId: 'insecticides',
@@ -819,5 +819,417 @@ export const productsData: Product[] = [
   dose: [],
   targetPest: [],
   packing: '250ml, 500ml, 1l'
+},{
+  id: '22',
+  compnay: 'MISSING',
+  chemical: 'Azoxystrobin 18.2% + Difenoconazole 11.4% S.C',
+  description: `MISSING (Azoxystrobin 18.2% + Difenoconazole 11.4% S.C) is a cutting-edge combination fungicide with Azoxystrobin 18.2% W/W & Difenoconazole 11.4% W/W SC, offering dual systemic action for broad-spectrum disease control, while enhancing crop health, quality, and yield.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'fungicides',
+  crop: [
+    {
+        "crop": "Paddy",
+        "target": "Sheath blight, Blast",
+        "dose": "200 ml"
+    },
+    {
+        "crop": "Tomato",
+        "target": "Early blight, Late blight",
+        "dose": "200 ml"
+    },
+    {
+        "crop": "Chilli",
+        "target": "Anthracnose, Powdery Mildew",
+        "dose": "200 ml"
+    },
+    {
+        "crop": "Maize",
+        "target": "Blight, Downey Mildew",
+        "dose": "200 ml"
+    },
+    {
+        "crop": "Wheat",
+        "target": "Powdery Mildew, Rust",
+        "dose": "200 ml"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '200ml, 500ml, 1l'
+},{
+  id: '23',
+  compnay: 'Dhanu',
+  chemical: 'Azoxystrobin 11% + Tebuconazole 18.3% S.C',
+  description: `Dhanu(Azoxystrobin 11% + Tebuconazole 18.3% S.C) is a premier fungicide featuring Azoxystrobin 11% & Tebuconazole 18.3% w/w SC, effectively targeting fungal respiration and ergosterol synthesis. This potent blend combines Triazole and Strobilurin chemistries, offering systemic and translaminar movement for rapid dispersion within the plant system.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'fungicides',
+  crop: [
+    {
+        "crop": "Apple",
+        "target": "Scab, Powdery Mildew & pre mature leaf fall disease",
+        "dose": "300 ml/acre"
+    },
+    {
+        "crop": "Onion",
+        "target": "Purple Blotch",
+        "dose": "300 ml/acre"
+    },
+    {
+        "crop": "Chilli",
+        "target": "Anthracnose, Die Back",
+        "dose": "300 ml/acre"
+    },
+    {
+        "crop": "Paddy",
+        "target": "Blast of paddy, Sheath Blight",
+        "dose": "300 ml/acre"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '250ml, 500ml, 1l'
+},{
+  id: '24',
+  compnay: 'Tesu',
+  chemical: 'Tebuconazole 10% + Sulphur 63% W.G',
+  description: `Tesu (Tebuconazole 10% + Sulphur 63% W.G) is an efficient and cost-effective solution for fungal disease control in chilli and soybean, harnessing a phytotonic effect to enhance yield and produce quality. Equipped with protective, curative, and eradicative properties, it ensures comprehensive crop protection and optimal results.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'fungicides',
+  crop: [
+    {
+        "crop": "Chilli",
+        "target": "Powdery mildew and Fruit rot",
+        "dose": "1250 /Ha"
+    },
+    {
+        "crop": "Soybean",
+        "target": "Leaf spot and Pod blight",
+        "dose": "1250 /Ha"
+    },
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '250ml, 500ml, 1l'
+},{
+  id: '25',
+  compnay: 'Profit',
+  chemical: 'Propiconazole 25% E.C',
+  description: `Profit (Propiconazole 25% EC) is a systemic fungicide belonging to the Triazole group, renowned for its broad spectrum of activity. This potent formulation offers comprehensive control against various leaf and stem diseases in cereals, ensuring optimal crop protection and health.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'fungicides',
+  crop:[
+    {
+        "crop": "Wheat",
+        "target": "Karnal Bunt, Brown rust, Black rust, Yellow rust",
+        "dose": "200 ml/acre"
+    },
+    {
+        "crop": "Paddy",
+        "target": "Sheath blight, Black dirty Grains",
+        "dose": "200 ml/acre"
+    },
+    {
+        "crop": "Groundnut",
+        "target": "Tikka disease, Rust",
+        "dose": "200 ml/acre"
+    },
+    {
+        "crop": "Tea",
+        "target": "Blister blight",
+        "dose": "50-100 ml/acre"
+    },
+    {
+        "crop": "Soybean",
+        "target": "Rust",
+        "dose": "200 ml/acre"
+    },
+    {
+        "crop": "Banana",
+        "target": "Sigatoka leaf spots",
+        "dose": "200 ml/acre"
+    },
+    {
+        "crop": "Coffee",
+        "target": "Leaf rust",
+        "dose": "320 ml/acre"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '250ml, 500ml, 1l'
+},{
+  id: '26',
+  compnay: 'Hexcel',
+  chemical: 'Hexaconazole 5% S.C',
+  description: `Hexcel (Hexaconazole 5% SC) is a distinctive systemic triazole fungicide, renowned for its protective, curative, and eradicant properties, coupled with potent antisporulant and translaminar action for comprehensive disease control.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'fungicides',
+  crop: [
+    {
+        "crop": "Paddy",
+        "target": "Sheath blight",
+        "dose": "0.2% or 200 ml/100 lt. water"
+    },
+    {
+        "crop": "Mango",
+        "target": "Powdery mildew",
+        "dose": "0.2% or 200 ml/100 lt. water"
+    },
+    {
+        "crop": "Grapes",
+        "target": "Powdery mildew",
+        "dose": "500-1000 ml"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '100ml, 250ml, 500ml, 1l, 5l'
+},{
+  id: '27',
+  compnay: 'Swift',
+  chemical: 'Carbendazim 12% + Mancozeb 63% W.P',
+  description: `Sixer (Carbendazim 12% + Mancozeb 63% W.P) is a sophisticated blend comprising Mancozeb 63%WP, a contact fungicide from the dithiocarbamate group, and Carbendazim 12%WP, a systemic fungicide from the Benzimidazole carbamate group. With its multisite protective and curative action, Sixer inhibits spore germination, providing dual protection both internally and externally for enhanced disease control.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'fungicides',
+  crop: [
+    {
+        "crop": "Paddy",
+        "target": "Blast",
+        "dose": "300 gm"
+    },
+    {
+        "crop": "Groundnut",
+        "target": "For seed treated groundnut- Tilkka, Leaf Spot, Collar Rot, Dry Root Rot",
+        "dose": "2.5 gm/ Kg Seed"
+    },
+    {
+        "crop": "Potato",
+        "target": "Late Blight. Early blight, Black Scurf",
+        "dose": "300 gm"
+    },
+    {
+        "crop": "Grapes",
+        "target": "Powdery and Downy Mildew, Anthracnose",
+        "dose": "0.15 % ( Depending on the crop canopy)"
+    },
+    {
+        "crop": "Mango",
+        "target": "Anthranose, Powdery Mildew",
+        "dose": "0.15 % ( Depending on the crop canopy)"
+    },
+    {
+        "crop": "Tea",
+        "target": "Blister Blight, Grey Blight, Red Rot, Die Back, Black Rot",
+        "dose": "500-600 gm"
+    },
+    {
+        "crop": "Groundnut",
+        "target": "In Foliar spray groundnut - Leaf Spot And Blast",
+        "dose": "300 gm"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '20 gm, 100 gm, 250 gm, 500 gm, 1 kg'
+},{
+  id: '28',
+  compnay: 'Excel M-45',
+  chemical: 'Mancozeb 75% W.P',
+  description: `Excel M-45 (Mancozeb 75% WP): a potent contact fungicide belonging to the Dithiocarbamate group. It effectively inhibits fungal growth and disease spread by reducing enzyme activity, thus disrupting energy production and ultimately leading to fungal death.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'fungicides',
+  crop: [
+    {
+        "crop": "Paddy",
+        "target": "Blast",
+        "dose": "600-800 gm"
+    },
+    {
+        "crop": "Wheat",
+        "target": "Brown and Black rust",
+        "dose": "600-800 gm"
+    },
+    {
+        "crop": "Potato",
+        "target": "Early and Late Blight",
+        "dose": "600-800 gm"
+    },
+    {
+        "crop": "Tomato",
+        "target": "Early blight, Leaf spot",
+        "dose": "600-800 gm"
+    },
+    {
+        "crop": "Groundnut",
+        "target": "Tikka and rust",
+        "dose": "600-800 gm"
+    },
+    {
+        "crop": "Grapes",
+        "target": "Downy mildew, Anthracnose",
+        "dose": "600-800 gm"
+    },
+    {
+        "crop": "Chilli",
+        "target": "Fruit rot, Leaf spot",
+        "dose": "600-800 gm"
+    },
+    {
+        "crop": "Banana",
+        "target": "Sigatoka leaf spot",
+        "dose": "600-800 gm"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '100gm, 250gm, 500gm, 1kg'
+},{
+  id: '29',
+  compnay: 'Themis',
+  chemical: 'Thiophanate Methyl 70% W.P',
+  description: `Themis (Thiophanate Methyl 70% W.P) is a potent fungicide containing Thiophanate Methyl 70% WP, offering broad-spectrum preventive, curative, and systemic action against a wide array of fungal pathogens and leaf spot diseases.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'fungicides',
+  crop: [
+    {
+        "crop": "Papaya",
+        "weed": "Powdery mildew",
+        "dose": "250 gm/Acre"
+    },
+    {
+        "crop": "Apple",
+        "weed": "Scab",
+        "dose": "250 gm/Acre"
+    },
+    {
+        "crop": "Tomato",
+        "weed": "Ring rot",
+        "dose": "250 gm/Acre"
+    },
+    {
+        "crop": "Bottle gourd",
+        "weed": "Anthracnose",
+        "dose": "250 gm/Acre"
+    },
+    {
+        "crop": "Grapes",
+        "weed": "Powdery mildew, Anthracnose, Rust",
+        "dose": "250 gm/Acre"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '100gm, 250gm'
+},{
+  id: '30',
+  compnay: 'Max Sulf Gold',
+  chemical: 'Sulphur 80% W.D.G',
+  description: `Max Sulf Gold Joker is a groundbreaking formulation enriched with Fipronil 80% WDG, redefining pest control with modern precision and ease of use. Its innovative dust-free particles guarantee effortless handling, accurate measurement, and efficient dosing, ensuring superior solubility in water for optimal crop coverage. Beyond its powerful pest control capabilities, Joker also fosters plant growth, providing extended protection and increased crop yields.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'fungicides',
+  crop: [
+    {
+        "crop": "Grape",
+        "target": "Powdery Mildew",
+        "dose": "1.50-2.00 kg/ha (ai), 1.875-2.50 kg/Ha (foundation)"
+    },
+    {
+        "crop": "Cowpea, Guar, Pea",
+        "target": "Powdery Mildew",
+        "dose": "1.50-2.00 kg/ha (ai), 1.875-2.50 kg/Ha (foundation)"
+    },
+    {
+        "crop": "Apple",
+        "target": "Powdery Mildew",
+        "dose": "1.50-2.00 kg/ha (ai), 1.875-2.50 kg/Ha (foundation)"
+    },
+    {
+        "crop": "Cumin",
+        "target": "Powdery Mildew",
+        "dose": "1.50-2.00 kg/ha (ai), 1.875-2.50 kg/Ha (foundation)"
+    },
+    {
+        "crop": "Mango",
+        "target": "Powdery Mildew",
+        "dose": "1.50-2.00 kg/ha (ai), 1.875-2.50 kg/Ha (foundation)"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '1kg, 20kg, 25kg, 50kg'
+},{
+  id: '31',
+  compnay: 'Pyri Star',
+  chemical: 'Bispyribac Sodium 10% S.C',
+  description: `Pyri Star (Bispyribac-sodium 10% S.C) is the organic sodium salt of bispyribac: a versatile post-emergent herbicide renowned for its broad-spectrum efficacy against grasses, sedges, and broadleaf weeds in rice crops.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'herbicides',
+  crop: [
+    {
+        "crop": "Rice (Nursery)",
+        "target": "Echinochloa crusgalli, Echinochloa colonum",
+        "dose": "200 ml/Ha"
+    },
+    {
+        "crop": "Rice (Transplanted)",
+        "target": "Ischaemum rugosum, Cyperus difformis, Cyperus iria",
+        "dose": "200 ml/Ha"
+    },
+    {
+        "crop": "Rice (Directly seeded)",
+        "target": "Fimbristylis miliacea, Eclipta alba, Ludwigia parviflora, Monochoria vaginalis, Alternanthera philoxeroides, Sphenoclcea zeylenica",
+        "dose": "200 ml/Ha"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '100ml, 300ml, il, 5l, 10l'
+},{
+  id: '32',
+  compnay: 'Creta',
+  chemical: 'Pretilachlor 50% E.C',
+  description: `Creta (Pretilachlor 50% EC) is a pre-emergence herbicide belonging to the Chloroacetamide group, offering broad-spectrum control against all types of weeds in rice fields. Creta is absorbed primarily by germinating shoots and secondarily by roots, with translocation throughout the plant, leading to higher concentrations in vegetative parts than in reproductive parts.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'herbicides',
+  crop: [
+    {
+      crop: "Paddy",
+      target: "All narrow and broad leaf weeds- Echinochloa crusgalli, Echinochloa colonum Cyperusdifformis Cyperusiria Fimbristylismilliacea Eclipta alba Ludwigiapulviflora Leptochloachinensis Monochorea vaginalis Panicumrepens",
+      dose: "500ml/Acre"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '100 ml, 250 ml, 500 ml,1 ltr, 5 ltr'
+},{
+  id: '33',
+  compnay: 'Creta Super',
+  chemical: 'Pretilachlor 37% E.W',
+  description: `Creta Super (Pretilachlor 37% E.W) is fortified with Pretilachlor 37% EW, it stands as a pre-emergence selective herbicide tailored for transplanted rice fields. Effectively targeting grass, broadleaf, and sedge weeds, Creta Super ensures crop safety while delivering optimal control. With a recommended application rate equivalent to 600ml per acre, it provides reliable and efficient weed management for enhanced rice cultivation.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'herbicides',
+  crop: [
+    {
+      "crop": "Transplanted Rice",
+      "target": "Echinochloa crusgalli, Echinochloa colonum, Cyperus difformis, Cyperus iria, Digitaria sanguinalis, Fimbristylis miliaceae, Eclipta alba, Ludwigia parviflora, Monochoria vaginalis",
+      "dose": "1500-1875 ml/Ha"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '250ml, 600ml, 1.2l, 3l'
 }
+
 ]
