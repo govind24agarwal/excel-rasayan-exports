@@ -92,11 +92,11 @@ const ProductDetailsPage: React.FC<ProductsDetailsPageProps> = ({
                     <AccordionContent>
                       <div className='ml-2 border-b pb-1'>
                         <p className='text-base'>Target Pest/ Disease</p>
-                        <p className='text-sm'>{crop.target}</p>
+                        <p className='text-sm text-stone-600'>{crop.target}</p>
                       </div>
                       <div className='ml-2'>
                         <p className='text-base'>Dose</p>
-                        <p className='text-sm'>{crop.dose}</p>
+                        <p className='text-sm text-stone-600'>{crop.dose}</p>
                       </div>
                     </AccordionContent>
                   </AccordionItem>
