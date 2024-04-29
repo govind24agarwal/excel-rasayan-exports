@@ -2,6 +2,13 @@ import React from 'react'
 import { productsData } from '@/data';
 import { Badge } from "@/components/ui/badge"
 import { Package, Ruler, Wheat } from 'lucide-react';
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
+
 
 interface ProductsDetailsPageProps {
   params: {
@@ -44,7 +51,7 @@ const ProductDetailsPage: React.FC<ProductsDetailsPageProps> = ({
           </div>
         </div>
       </div>
-      <div className='mx-auto max-w-5xl text-left'>
+      <div className='mx-auto max-w-5xl text-left px-4'>
         <div className='flex flex-col gap-2 mt-12'>
           <div className='flex gap-2'>
             <Package size={25} color='rgb(21 128 61'/>
@@ -52,7 +59,7 @@ const ProductDetailsPage: React.FC<ProductsDetailsPageProps> = ({
           </div>
           <p className='ml-2'>{product?.packing}</p>
         </div>
-        <table className='w-full my-12 border-2'>
+        <table className='hidden md:block w-full my-12 border-2'>
           <thead>
             <tr className='bg-green-700'>
               <th className='py-2 text-white pl-1 min-w-[150px]'>Crops</th>
@@ -72,6 +79,32 @@ const ProductDetailsPage: React.FC<ProductsDetailsPageProps> = ({
               })}
           </tbody>
         </table>
+        <div className='block md:hidden px-1 my-4 border-t pt-4'>
+          <div className='flex gap-2'>
+            <Wheat size={25} color='rgb(21 128 61'/>
+            <p className='text-lg'>Crops</p>
+          </div>          {
+            product?.crop.map( crop => {
+              return (
+                <Accordion key={crop.crop} type="single" collapsible>
+                  <AccordionItem value="item-1">
+                    <AccordionTrigger className='text-green-800'>{crop.crop}</AccordionTrigger>
+                    <AccordionContent>
+                      <div className='ml-2 border-b pb-1'>
+                        <p className='text-base'>Target Pest/ Disease</p>
+                        <p className='text-sm'>{crop.target}</p>
+                      </div>
+                      <div className='ml-2'>
+                        <p className='text-base'>Dose</p>
+                        <p className='text-sm'>{crop.dose}</p>
+                      </div>
+                    </AccordionContent>
+                  </AccordionItem>
+                </Accordion>
+              )
+            })
+          }
+        </div>
       </div>
     </main>
   )
