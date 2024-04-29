@@ -1491,27 +1491,27 @@ export const productsData: Product[] = [
     {
       crop: 'Cotton',
       target: '1st spray - 45 days after planting. 2nd spray - 65 days after planting. 3rd spray - 85 days after planting',
-      dosage: '100 ml per acre in 160-200l of water'
+      dose: '100 ml per acre in 160-200l of water'
     },
     {
       crop: 'Tomato',
       target: '1st spray - 25 days after planting. 2nd spray - 45 days after planting. 3rd spray - 65 days after planting',
-      dosage: '100 ml per acre in 160-200l of water'
+      dose: '100 ml per acre in 160-200l of water'
     },
     {
       crop: 'Rice',
       target: '1st spray - 25 days after planting. 2nd spray - 45 days after planting. 3rd spray - 65 days after planting',
-      dosage: '100 ml per acre in 160-200l of water'
+      dose: '100 ml per acre in 160-200l of water'
     },
     {
       crop: 'Chillies',
       target: '1st spray - 25 days after planting. 2nd spray - 45 days after planting. 3rd spray - 65 days after planting',
-      dosage: '100 ml per acre in 160-200l of water'
+      dose: '100 ml per acre in 160-200l of water'
     },
     {
       crop: 'Groundnut',
       target: '1st spray - 25 days after planting. 2nd spray - 45 days after planting. 3rd spray - 65 days after planting',
-      dosage: '100 ml per acre in 160-200l of water'
+      dose: '100 ml per acre in 160-200l of water'
     }
   ],
   dose:[],
