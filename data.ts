@@ -1456,6 +1456,113 @@ export const productsData: Product[] = [
   dose: [],
   targetPest: [],
   packing: '500 ml, 1 ltr, 5 ltr'
+},{
+  id: '41',
+  compnay: 'Runner Gold',
+  chemical: 'Triacontanol 0.05% G.R',
+  description: `Runner Gold (Triacontanol 0.05% GR) is a potent compound known for enhancing photosynthesis, plant growth, and reproduction. As a naturally occurring plant growth promoter, it elevates cell division rates, resulting in larger root and shoot mass. This PGR serves as an effective metabolic activator. Available in both GR and EC formulations, our company offers a versatile solution to boost crop productivity and vitality.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'plant-growth-regulators',
+  crop: [
+    {
+      "crop": "Cotton, Rice, Tomato, Chilli, Groundnut",
+      "target": "increasing the yield",
+      "dose": "5 Kg/acre"
+    },
+    {
+      "crop": "Mango, Pineapple etc and various vegetables etc",
+      "target": "Enlarging Fruit size",
+      "dose": "5 Kg/acre"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '5kg'
+},{
+  id: '42',
+  compnay: 'Runner Gold L',
+  chemical: 'Triacontanol 0.1% E.W',
+  description: `Runner Gold L (Triacontanol 01% EW) is a specialized solution aimed at boosting crop yields in various crops such as cotton, chilies, tomatoes, rice, and groundnuts. This formulation plays a crucial role in enlarging fruit size, ensuring enhanced productivity and quality.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'plant-growth-regulators',
+  crop: [
+    {
+      crop: 'Cotton',
+      target: '1st spray - 45 days after planting. 2nd spray - 65 days after planting. 3rd spray - 85 days after planting',
+      dosage: '100 ml per acre in 160-200l of water'
+    },
+    {
+      crop: 'Tomato',
+      target: '1st spray - 25 days after planting. 2nd spray - 45 days after planting. 3rd spray - 65 days after planting',
+      dosage: '100 ml per acre in 160-200l of water'
+    },
+    {
+      crop: 'Rice',
+      target: '1st spray - 25 days after planting. 2nd spray - 45 days after planting. 3rd spray - 65 days after planting',
+      dosage: '100 ml per acre in 160-200l of water'
+    },
+    {
+      crop: 'Chillies',
+      target: '1st spray - 25 days after planting. 2nd spray - 45 days after planting. 3rd spray - 65 days after planting',
+      dosage: '100 ml per acre in 160-200l of water'
+    },
+    {
+      crop: 'Groundnut',
+      target: '1st spray - 25 days after planting. 2nd spray - 45 days after planting. 3rd spray - 65 days after planting',
+      dosage: '100 ml per acre in 160-200l of water'
+    }
+  ],
+  dose:[],
+  targetPest: [],
+  packing: '1l'
+},{
+  id: '43',
+  compnay: 'Profit',
+  chemical: 'Paclobutrazole 23% S.C',
+  description: `Profit (Paclobutrazole 23% S.C) is a widely employed plant growth regulator, particularly favored in mango cultivation. Its primary function involves inhibiting gibberellin synthesis while promoting flowering and fruiting. This dual action results in reduced vegetative growth, enhanced transfer of assimilates to reproductive organs, and increased yield potential.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'plant-growth-regulators',
+  crop: [
+    {
+      "crop": "Mango (trees 7 – 15 Years)",
+      "target": "Applied after the harvest of fruits. Any time from July to Oct will be ideal",
+      "dose": "15 ml/tree in 5l water"
+    },
+    {
+      "crop": "Mango (tree 16- 25yrs)",
+      "target": "Applied after the harvest of fruits. Any time from July to Oct will be ideal",
+      "dose": "20 ml/tree in 5l water"
+    },
+    {
+      "crop": "Mango (tree >25yrs)",
+      "target": "Applied after the harvest of fruits. Any time from July to Oct will be ideal",
+      "dose": "30 ml/tree in 5l water"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '1l'
+},{
+  id: '44',
+  compnay: 'Profit Super',
+  chemical: 'Paclobutrazole 40% S.C',
+  description: `Profit Sugar (Paclobutrazole 40% S.C) is a vital nutrient channelizer that optimizes the utilization of fertilizers, facilitating proper growth, fruit development, branch formation, and flowering in crops.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'plant-growth-regulators',
+  crop: [
+    {
+      "crop": "Red Gram",
+      "target": "Increases Tillering Or Branching, Increasing Flowering Results To Increase Yield, Bushy Plant Shape, Thicker & Healthy Stem, Reduced Internodal Distance, Development Of Better Fruit Color And Size.",
+      "dose": " 30ml per Acre"
+    },
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '30ml, 50ml, 100ml'
 }
 
 ]
