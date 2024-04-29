@@ -1230,6 +1230,232 @@ export const productsData: Product[] = [
   dose: [],
   targetPest: [],
   packing: '250ml, 600ml, 1.2l, 3l'
+},{
+  id: '34',
+  compnay: 'Weedomil 58',
+  chemical: '2,4-d Amine Salt 58% S.L',
+  description: `Weedomil 58 (2,4-d Amine Salt 58% S.L) is a solution of the dimethylammonium salt of the organic acid 2,4-Dichlorophenoxyacetic acid, functioning as a selective systemic phenoxy herbicide. This post-emergent herbicide effectively targets both annual and perennial broadleaf weeds in cereals, maize, rice, sorghum, and sugarcane crops.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'herbicides',
+  crop: [
+    {
+      "crop": "Transplanted Rice",
+      "target": "Echinochloa crusgalli, Echinochloa colonum, Cyperus difformis, Cyperus iria, Digitaria sanguinalis, Fimbristylis miliaceae, Eclipta alba, Ludwigia parviflora, Monochoria vaginalis",
+      "dose": "1500-1875 ml/Ha"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '250 ml, 500 ml, 1 ltr, 2.5 ltr, 5 ltr'
+},{
+  id: '35',
+  compnay: 'Weedomil 38',
+  chemical: '2,4-d Ethyl Ester 38% E.C',
+  description: `Creta Super (Pretilachlor 37% E.W) is fortified with Pretilachlor 37% EW, it stands as a pre-emergence selective herbicide tailored for transplanted rice fields. Effectively targeting grass, broadleaf, and sedge weeds, Creta Super ensures crop safety while delivering optimal control. With a recommended application rate equivalent to 600ml per acre, it provides reliable and efficient weed management for enhanced rice cultivation.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'herbicides',
+  crop: [
+    {
+      "crop": "Sorghum",
+      "target": "Cyperus Iria, Digera Arvensis, Convolvulus Arvensis, Trianthema Sp., Tridax Procumbens, Euphorbia Hirta, Phyllanthus Niruri.",
+      "dose": "600 ml/acre"
+    },
+    {
+      "crop": "Maize",
+      "target": "Trianthema Monogyna, Amaranthus Sp., Tribulus Terrestris, Boerhaavia Diffusa, Euphorbia Hirta, Portulaca Oleracea, Cyperus Sp",
+      "dose": "600 ml/acre"
+    },
+    {
+      "crop": "Wheat",
+      "target": "Chenopodium Album, Fumaria Parviflora, Melillotus Alba , Vicia Sative , Asphodelus Tenuifolius , Convolvulus Arvensi;S",
+      "dose": "300-500 ml/acre"
+    },
+    {
+      "crop": "Sugarcane",
+      "target": "Cyperus Iria Digitaria Sp. Dactylactenium Aegyptium Digera Arvensis Portulaca Oleracea Commelina Benghalensis Convolvulus Arvensis",
+      "dose": "300-500 ml/acre"
+    },
+    {
+      "crop": "Potato",
+      "target": "Chenopodium Album, Asphodelus Tenuifolius, Anagallis Arvensis, Convolvulus Arvensis, Cyperus Iria, Portulaca Oleracea.",
+      "dose": "500 ml/acre"
+    },
+    {
+      "crop": "Aquatic Weeds non Crop Area",
+      "target": "Eichhornia Crassipes., Parthenium Hysterophorus, Cyperus Rotundus",
+      "dose": "600 ml/acre"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '250 ml, 500 ml, 1 ltr, 2 ltr, 5 ltr'
+},{
+  id: '36',
+  compnay: 'Excel 71',
+  chemical: 'Ammonium Salt of Glyphosate 71% S.G',
+  description: `Excel 71 is a powerful non-selective, non-residual post-emergence herbicide that swiftly absorbs through foliage and travels throughout the plant. This highly effective solution targets numerous annual and perennial grasses, broadleaf weeds, trees, and woody brush species in both cropland and non-crop areas. Ideal for general weed control in industrial, recreational, and public spaces, as well as farmsteads, it also serves to manage unwanted vegetation in row crops, vine crops, and tree orchards. Notably, Excel 71 exhibits low toxicity towards birds and aquatic organisms and is safe for bees.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'herbicides',
+  crop: [
+    {
+      "crop": "Tea and Non-cropped areas",
+      "target": "Acalypha indica, sida acuta, Ipomoea digitata, Cichorium intybus, Digera arvensis, Digitaria sanguinalis, Paspalum conjugatum, Ageratum conyzoides, Cynodon dactylon, Cyperus rotundus, eragrostis spp.",
+      "dose": "2.13 gm/ha (a.i.), 3 l/ha (Formulation) || 60 gm per 15 ltr water"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '100gm, 250gm, 500gm, 1kg, 2kg, 4kg, 5kg, 10kg'
+},{
+  id: '37',
+  compnay: 'Glyexcel Ultra',
+  chemical: 'Glyphosate 54% S.L',
+  description: `Glyexcel Ultra is a systemic, non-selective, high-loaded Glyphosate formulation featuring IPA salt, delivering 'More Power - More Coverage' for consistent control of all weed types in non-crop situations. This broad-spectrum solution ensures efficient weed management with enhanced efficacy and coverage.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'herbicides',
+  crop: [
+    {
+      "crop": "General weed control in non cropped areas",
+      "target": "Ageratum conyoides, Alternenthera sessile, Echinochloa spp., Eclipta alba, Ischaemum rugosum, Setaria spp., Commelina spp., Cyperus spp.",
+      "dose": "1400 ml Per Acre || 100 ml for 15 liters of water"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '1l'
+},{
+  id: '38',
+  compnay: 'Glyexcel',
+  chemical: 'Glyphosate 41% S.L',
+  description: `Glyexcel (Glyphosate 41% SL) is a potent non-selective systemic herbicide from the Organophosphorus group, disrupting EPSP synthesis in weed plants for effective control of both annual and perennial weeds. Upon application, Glyexcel is swiftly absorbed by weed plants and translocates to their roots, ensuring complete eradication. Widely utilized in plantation crops, water channels, bunds, and open fields, Glyexcel offers comprehensive weed management for diverse agricultural environments.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'herbicides',
+  crop: [
+    {
+      "crop": "Tea",
+      "target": "All types of narrow and broad leaves",
+      "dose": "0.8 to 1.2 ltr/acre"
+    },
+    {
+      "crop": "Open Fields",
+      "target": "Different types of weeds",
+      "dose": "0.8 to 1.2 ltr/acre"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '500 ml, 1 ltr, 5 ltr'
+},{
+  id: '39',
+  compnay: 'Pendicil',
+  chemical: 'Pendimethalin 30% E.C',
+  description: `Pendicil (Pendimethalin 30% EC) is an effective herbicide classified under the dinitroaniline group, utilized for both pre-emergence and post-emergence applications to combat annual grasses and specific broadleaf weeds. Its mechanism involves inhibiting cell division and elongation, alongside microtubule assembly inhibition, ensuring thorough weed control.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'herbicides',
+  crop: [
+    {
+      "crop": "Onion",
+      "target": "Echinochloa, Euphorbia, Wild Amaranthus, Phyllanthus, etc",
+      "dose": "1.0 – 1.5 lt/acre"
+    },
+    {
+      "crop": "Cotton",
+      "target": "Echinochloa, Euphorbia, Wild Amaranthus, Phyllanthus, Paspalum, etc",
+      "dose": "1.0 – 1.5 lt/acre"
+    },
+    {
+      "crop": "Soybean",
+      "target": "Echinochloa, Euphorbia, Wild Amaranthus",
+      "dose": "1.0 – 1.5 lt/acre"
+    },
+    {
+      "crop": "Wheat",
+      "target": "Phalaris, Carnoplus, Poa, Chenopodium, Portuluca, Anagallis",
+      "dose": "1.0 – 1.5 lt/acre"
+    },
+    {
+      "crop": "Paddy",
+      "target": "Wild Rice, Echinochloa, Cyperus, Eclipta",
+      "dose": "1.5 – 2.0 lt/acre"
+    },
+    {
+      "crop": "Black gram",
+      "target": "Echinochloa, Euphorbia, Wild Amaranthus",
+      "dose": "1.0 – 1.5 lt/acre"
+    },
+    {
+      "crop": "Green gram",
+      "target": "Echinochloa, Euphorbia, Wild Amaranthus",
+      "dose": "1.0 – 1.5 lt/acre"
+    },
+    {
+      "crop": "Garlic",
+      "target": "Echinochloa, Euphorbia, Wild Amaranthus, Phyllanthus, etc",
+      "dose": "1.0 – 1.5 lt/acre"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '250ml, 500 ml, 1 ltr, 5 ltr'
+},{
+  id: '40',
+  compnay: 'Hilquat',
+  chemical: 'Paraquat Di-chloride 24% S.L',
+  description: `Hilquat (Paraquat Dichloride 24% SL) is a potent broad-spectrum, non-selective contact herbicide featuring 24% Paraquat dichloride AI, renowned for its efficacy in controlling broadleaved weeds and grasses. It's mechanism involves generating superoxide during photosynthesis, which subsequently damages cell membranes and cytoplasm, ensuring effective weed control.`,
+  isFeatured: true,
+  imageUrl: '/images/products/image_8.webp',
+  categoryId: 'herbicides',
+  crop: [
+    {
+      "crop": "Tea",
+      "target": "Imperata cylindrica, Seteria sp., Commelina benhgalensis, Boerhavia hispida, Paspalum conjugatum",
+      "dose": "340-1700 ml/acre"
+    },
+    {
+      "crop": "Potato",
+      "target": "Chenopodium sp., Angallis arvensis, Trianthema monogyna, Cyperus rotundus",
+      "dose": "424-850 ml/acre"
+    },
+    {
+      "crop": "Cotton",
+      "target": "Digera arvensis, Cyperus iria",
+      "dose": "500-850 ml/acre"
+    },
+    {
+      "crop": "Rubber",
+      "target": "Digitaria Sp., Eragrostis Sp., Fimbristylis Sp",
+      "dose": "500-1000 ml/acre"
+    },
+    {
+      "crop": "Paddy",
+      "target": "Ageratum conyzoides, Commelina benghalensis, Echinochloa crusgalli, Panicum repens, Cyperus iria, Brachiaria mutoca",
+      "dose": "850-1600 ml/acre"
+    },
+    {
+      "crop": "Wheat",
+      "target": "Grassy & Broadleaved weeds",
+      "dose": "1700 ml/acre"
+    },
+    {
+      "crop": "Grapes",
+      "target": "Cyperus rotundus, Cynodon dactylon, Convolvulus sp. portulaca sp. Tridax Sp.",
+      "dose": "1000 ml/acre"
+    },
+    {
+      "crop": "Aquatic Weeds",
+      "target": "Eichhonia crassipes, Hydrilla",
+      "dose": "17000-1000, 1680 ml/acre"
+    }
+  ],
+  dose: [],
+  targetPest: [],
+  packing: '500 ml, 1 ltr, 5 ltr'
 }
 
 ]
