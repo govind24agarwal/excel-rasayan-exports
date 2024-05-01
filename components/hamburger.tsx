@@ -40,8 +40,9 @@ const Hamburger: React.FC<HamburgerProps> = ({
                       'text-lg font-medium transition-colors hover:text-black text-white z-20',
                       route.active ? 'text-white' : ''
                     )}
+                    key={route.href}
                   >
-                    <div key={route.href} onClick={() => setIsShowMenu(false)} className='flex items-center justify-left gap-4 w-full'>
+                    <div onClick={() => setIsShowMenu(false)} className='flex items-center justify-left gap-4 w-full'>
                       {route.icon}
                         {route.label}
                     </div>
