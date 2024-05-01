@@ -4,14 +4,18 @@ import { MenuIcon } from "lucide-react";
 import {
   Sheet,
   SheetContent,
-  SheetDescription,
   SheetHeader,
   SheetTitle,
   SheetTrigger,
 } from "@/components/ui/sheet"
 import Link from 'next/link';
 import { cn } from '@/lib/utils';
-
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion"
 
 interface HamburgerProps {
   routes: Array<any>
@@ -33,21 +37,44 @@ const Hamburger: React.FC<HamburgerProps> = ({
         <div className='relative flex flex-col gap-5 h-full'>
           <div className='flex flex-col gap-5 p-4'>
             {routes.map((route) => {
-              return (
-                  <Link
-                    href={route.href}
-                    className={cn(
-                      'text-lg font-medium transition-colors hover:text-black text-white z-20',
-                      route.active ? 'text-white' : ''
-                    )}
-                    key={route.href}
-                  >
-                    <div onClick={() => setIsShowMenu(false)} className='flex items-center justify-left gap-4 w-full'>
-                      {route.icon}
+              if(route.href === `/products`){
+                return (
+                  <Accordion type="single" collapsible className='z-20'>
+                    <AccordionItem className='border-b-0' value="item-1">
+                      <AccordionTrigger className='justify-left gap-4 text-white py-0 hover:no-underline'>
+                        {route.icon}
                         {route.label}
-                    </div>
-                  </Link>
+                      </AccordionTrigger>
+                      <AccordionContent>
+                        <div className='flex flex-col text-white mt-2'>
+                          {route.submenuList.map((submenuItem: any) =>
+                            (
+                              <Link onClick={() => setIsShowMenu(false)} className='py-1 text-base pl-10' href={submenuItem.href}>{submenuItem.label}</Link>
+                            )
+                          )}
+                        </div>
+                      </AccordionContent>
+                    </AccordionItem>
+                  </Accordion>
                 )
+              }
+              else{
+                return (
+                    <Link
+                      href={route.href}
+                      className={cn(
+                        'text-lg font-medium transition-colors hover:text-black text-white z-20',
+                        route.active ? 'text-white' : ''
+                      )}
+                      key={route.href}
+                    >
+                      <div onClick={() => setIsShowMenu(false)} className='flex items-center justify-left gap-4 w-full'>
+                        {route.icon}
+                        {route.label}
+                      </div>
+                    </Link>
+                  )
+              }
               })}
           </div>
           <div className='absolute w-full h-full bg-black/40 z-10' />

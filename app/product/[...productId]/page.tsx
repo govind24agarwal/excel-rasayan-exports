@@ -88,8 +88,8 @@ const ProductDetailsPage: React.FC<ProductsDetailsPageProps> = ({
               return (
                 <Accordion key={crop.crop} type="single" collapsible>
                   <AccordionItem value="item-1">
-                    <AccordionTrigger className='text-green-800'>{crop.crop}</AccordionTrigger>
-                    <AccordionContent>
+                    <AccordionTrigger className='text-green-800 justify-between'>{crop.crop}</AccordionTrigger>
+                    <AccordionContent className='py-0 pb-0'>
                       <div className='ml-2 border-b pb-1'>
                         <p className='text-base'>Target Pest/ Disease</p>
                         <p className='text-sm text-stone-600'>{crop.target}</p>
