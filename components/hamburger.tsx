@@ -39,7 +39,7 @@ const Hamburger: React.FC<HamburgerProps> = ({
             {routes.map((route) => {
               if(route.href === `/products`){
                 return (
-                  <Accordion type="single" collapsible className='z-20'>
+                  <Accordion key={route.href} type="single" collapsible className='z-20'>
                     <AccordionItem className='border-b-0' value="item-1">
                       <AccordionTrigger className='justify-left gap-4 text-white py-0 hover:no-underline'>
                         {route.icon}
@@ -49,7 +49,7 @@ const Hamburger: React.FC<HamburgerProps> = ({
                         <div className='flex flex-col text-white mt-2'>
                           {route.submenuList.map((submenuItem: any) =>
                             (
-                              <Link onClick={() => setIsShowMenu(false)} className='py-1 text-base pl-10' href={submenuItem.href}>{submenuItem.label}</Link>
+                              <Link key={submenuItem.href} onClick={() => setIsShowMenu(false)} className='py-1 text-base pl-10' href={submenuItem.href}>{submenuItem.label}</Link>
                             )
                           )}
                         </div>
