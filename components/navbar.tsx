@@ -2,15 +2,20 @@ import Link from "next/link";
 
 import MainNav from "@/components/main-nav";
 import Container from "@/components/ui/container";
+import Image from "next/image";
 
 const Navbar = async () => {
 
   return ( 
     <div className="border-b z-50">
       <Container>
-        <div className="relative px-4 sm:px-6 lg:px-8 flex h-16 items-center justify-between">
-          <Link href="/" className="ml-4 flex lg:ml-0 gap-x-2">
-            <p className="font-bold text-sm lg:text-xl">EXCEL RASAYAN EXPORT</p>
+        <div className="relative px-4 sm:px-6 lg:px-8 flex h-12 md:h-16 items-center justify-between">
+          <Link href="/" className="flex gap-x-2 h-full items-center">
+            <Image width={56} height={56} className="h-9 w-9 md:h-14 md:w-14" alt='EXCEL RASAYAN EXPORT' src={'/images/logo.jpeg'} />
+            <div className="flex flex-col items-center text-sm lg:text-lg">
+              <p>Excel Rasayan</p>
+              <p>Export</p>
+            </div>
           </Link>
           <MainNav />
         </div>
