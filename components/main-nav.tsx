@@ -51,7 +51,7 @@ const MainNav: React.FC<MainNavProps> = ({
       component: (
         <SubMenu
           triggerText="Our Products"
-          active={pathname === `/products`}
+          active={pathname.startsWith('/products')}
           href='/products'
           submenuList={[
             {
@@ -103,15 +103,16 @@ const MainNav: React.FC<MainNavProps> = ({
             key={route.href}
             href={route.href}
             className={cn(
-              'z-20 text-sm font-medium transition-colors hover:text-black',
-              route.active ? 'text-black dark:text-white' : 'text-neutral-500'
+              'z-20 text-sm font-medium transition-colors hover:text-yellow-400',
+              route.active ? 'text-yellow-400 ' : 'text-white'
             )}
           >
             {route.label}
         </Link>)
         })}
       </div>
-      <div className="block md:hidden">
+      <div className="block md:hidden text-white">
+        {/* Side Menu */}
         <Hamburger routes={routes}/>
       </div>
     </nav>

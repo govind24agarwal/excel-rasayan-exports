@@ -6,9 +6,6 @@ import {
   Sprout,
   Truck,
   UserPlus2,
-  Bug,
-  Flower2,
-  SprayCan,
   MapPin,
   Phone,
   Mail,
@@ -17,6 +14,7 @@ import Link from "next/link"
 import { productsData } from "@/data";
 import ProductCard from "./products/(routes)/[productId]/components/productCard";
 import Banner from "@/components/banner";
+import ProduuctTabs from "@/components/productTabs";
 
 export default function Home() {
   const featuredProducts = productsData.filter(product => product.isFeatured)
@@ -78,40 +76,13 @@ export default function Home() {
         </div>
       </div>
       {/* Our Products */}
-      <div className="px-4 lg:px-8 py-8 lg:py-12 flex flex-col items-center bg-[url('/images/home-page/bg-2.png')] bg-no-repeat bg-cover lg:mt-2 m-1">
-        <div className="w-full py-8 px-4 bg-white rounded-lg">
+      <div className="px-4 lg:px-8 py-8 lg:py-12 flex flex-col items-center bg-[#A8BDA5] bg-no-repeat bg-cover lg:mt-2 m-1">
+        <div className="w-full p-4 shadow-lg bg-white rounded-lg">
           <h2 className="text-3xl lg:pl-0 md:text-5xl mb-2 mr-auto text-stone-900 font-semibold">Our Products</h2>
           <p className="mb-8 lg:pl-0 mr-auto text-stone-900">Discover our solutions to simplify your farming</p>
           {/* <div className="mb-6 lg:mb-12 mt-1 w-44 lg:w-60 h-1 rounded-xl bg-stone-600"></div> */}
-          <div className="flex flex-col lg:flex-row items-center gap-4 justify-center w-full px-8">
-            <Link href="/products/insecticides" className="bg-white w-[340px] lg:w-[350px] lg:h-[520px] rounded-lg shadow-lg p-4 border flex flex-row lg:flex-col gap-y-2 items-center lg:items-start justify-start mb-2">
-              <div className="flex flex-col justify-center items-center lg:items-start lg:h-auto">
-                <Bug size={40} className="text-stone-600"/>
-                <h3 className="text-xl text-stone-600 uppercase">Insecticides</h3>
-              </div>
-              <img className="ml-8 lg:ml-0 w-[150px] lg:w-auto self-center" src="/images/home-page/Fungicide.webp"/>
-            </Link>
-            <Link href="/products/herbicides" className="bg-white w-[340px] lg:w-[350px] lg:h-[520px] rounded-lg shadow-lg p-4 border flex flex-row lg:flex-col gap-y-2 items-center lg:items-start justify-start mb-2">
-              <div className="flex flex-col justify-center items-center lg:items-start lg:h-auto">
-                <Flower2 size={40} className="text-stone-600"/>
-                <h3 className="text-xl text-stone-600 uppercase">Herbicides</h3>
-              </div>
-              <img className="ml-8 lg:ml-0 w-[150px] lg:w-auto self-center" src="/images/home-page/Fungicide.webp"/>
-            </Link>
-            <Link href="/products/fungicides" className="bg-white w-[340px] lg:w-[350px] lg:h-[520px] rounded-lg shadow-lg p-4 border flex flex-row lg:flex-col gap-y-2 items-center lg:items-start justify-start mb-2">
-              <div className="flex flex-col justify-center items-center lg:items-start lg:h-auto">
-                <SprayCan size={40} className="text-stone-600 -scale-x-100"/>
-                <h3 className="text-xl text-stone-600 uppercase">Fungicides</h3>
-              </div>
-              <img className="ml-8 lg:ml-0 w-[150px] lg:w-auto self-center" src="/images/home-page/Fungicide.webp"/>
-            </Link>
-            <Link href="/products/plant-growth-regulators" className="bg-white w-[340px] lg:w-[350px] lg:h-[520px] rounded-lg shadow-lg p-4 border flex flex-row lg:flex-col gap-y-2 items-center lg:items-start justify-start mb-2">
-              <div className="flex flex-col justify-center items-center lg:items-start lg:h-auto">
-                <Sprout size={40} className="text-stone-600"/>
-                <h3 className="text-xl text-stone-600 uppercase text-center lg:text-left">Plant Growth Regulator</h3>
-              </div>
-              <img className="ml-8 lg:ml-0 w-[150px] lg:w-auto self-center" src="/images/home-page/Fungicide.webp"/>
-            </Link>
+          <div className="flex flex-col lg:flex-row items-center gap-4 justify-center w-full md:px-8">
+            <ProduuctTabs />
           </div>
         </div>
       </div>

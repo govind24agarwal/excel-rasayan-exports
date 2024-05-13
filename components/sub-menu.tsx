@@ -26,13 +26,13 @@ const SubMenu: React.FC<SubMenuProps>  = ({
   href
 }) => {
   return (
-    <NavigationMenu>
+    <NavigationMenu className='z-20'>
       <NavigationMenuList>
         <NavigationMenuItem>
           <NavigationMenuTrigger
             className={cn(
-              'text-sm font-medium transition-colors hover:text-black',
-              active ? 'text-black dark:text-white' : 'text-neutral-500'
+              'bg-inherit text-sm font-medium transition-colors hover:text-yellow-400',
+              active ? 'text-yellow-400' : 'text-white'
             )}
           >
             <Link href={href}>

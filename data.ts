@@ -643,11 +643,11 @@ export const productsData: Product[] = [
   packing: '100 ml, 250 ml, 500 ml, 1 ltr, 5 ltr, 20 ltr'
 },{
   id: '16',
-  compnay: 'Excel Lambda SC',
+  compnay: 'Excel Lambda CS',
   chemical: 'Lambda Cyhalothrin 4.9% C.S',
-  description: 'Excel Lambda SC (Lambda Cyhalothrin 4.9% CS) a synthetic pyrethroid having contact and stomach mode of action. It has a new technology due to which it gives long duration control. Excel Lambda SC renders good control over bollworm in Cotton. Chemical is also recommended for stem borer, leaf folder in Paddy, borers in Brinjal, Okra & Tomato, thrips & flea beetle in Grapes and thrips & pod borer in Chilli.',
+  description: 'Excel Lambda CS (Lambda Cyhalothrin 4.9% CS) a synthetic pyrethroid having contact and stomach mode of action. It has a new technology due to which it gives long duration control. Excel Lambda CS renders good control over bollworm in Cotton. Chemical is also recommended for stem borer, leaf folder in Paddy, borers in Brinjal, Okra & Tomato, thrips & flea beetle in Grapes and thrips & pod borer in Chilli.',
   isFeatured: true,
-  imageUrl: '/images/products/image_8.webp',
+  imageUrl: '/images/products/16.png',
   categoryId: 'insecticides',
   crop: [
     {
@@ -696,11 +696,11 @@ export const productsData: Product[] = [
   packing: '250 ml, 500 ml, 1 ltr,'
 },{
   id: '17',
-  compnay: 'Excel Lambda SC',
+  compnay: 'Excel Tehelka-ZC',
   chemical: 'Thiamethoxam 12.6% + Lambda Cyhalothrin 9.5% Z.C',
-  description: 'Excel Lambda SC (Thiamethoxam 12.6% + Lambda Cyhalothrin 9.5% Z.C) is a combination of two different groups of insecticide which contains active ingredients of Thiamethoxam 12.6% + Lambda-cyhalothrin 9.5% ZC. having quick stomach and contact activity and is recommended to control Aphids, Jassids, Thrips & Bolworms in Cotton, Aphid, Shootfly, Stem borer in Maize, Leaf hopper, leaf eating caterpillars in groundnut, Stem fly, semilooper, girdle beetle in Soybean, Thrips & fruit borer in Chilii, thrips, semilooper, tea mosquito bug in tea, thrips, whiteflies, fruit borer in tomato crop',
+  description: 'Excel Tehelka-ZC (Thiamethoxam 12.6% + Lambda Cyhalothrin 9.5% Z.C) is a combination of two different groups of insecticide which contains active ingredients of Thiamethoxam 12.6% + Lambda-cyhalothrin 9.5% ZC. having quick stomach and contact activity and is recommended to control Aphids, Jassids, Thrips & Bolworms in Cotton, Aphid, Shootfly, Stem borer in Maize, Leaf hopper, leaf eating caterpillars in groundnut, Stem fly, semilooper, girdle beetle in Soybean, Thrips & fruit borer in Chilii, thrips, semilooper, tea mosquito bug in tea, thrips, whiteflies, fruit borer in tomato crop',
   isFeatured: true,
-  imageUrl: '/images/products/image_8.webp',
+  imageUrl: '/images/products/17.png',
   categoryId: 'insecticides',
   crop: [
     {
@@ -1297,7 +1297,7 @@ export const productsData: Product[] = [
   chemical: 'Ammonium Salt of Glyphosate 71% S.G',
   description: `Excel 71 is a powerful non-selective, non-residual post-emergence herbicide that swiftly absorbs through foliage and travels throughout the plant. This highly effective solution targets numerous annual and perennial grasses, broadleaf weeds, trees, and woody brush species in both cropland and non-crop areas. Ideal for general weed control in industrial, recreational, and public spaces, as well as farmsteads, it also serves to manage unwanted vegetation in row crops, vine crops, and tree orchards. Notably, Excel 71 exhibits low toxicity towards birds and aquatic organisms and is safe for bees.`,
   isFeatured: true,
-  imageUrl: '/images/products/image_8.webp',
+  imageUrl: '/images/products/36.jpeg',
   categoryId: 'herbicides',
   crop: [
     {

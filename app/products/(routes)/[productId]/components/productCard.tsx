@@ -31,7 +31,7 @@ const ProductCard: React.FC<ProductCard> = ({
   const productString = `${data.id}/${slugify(data.compnay)}/${slugify(data.chemical)}`
   
   return ( 
-    <Link href={`/product/${productString}`} className={cn("bg-white group cursor-pointer rounded-md border p-3 space-y-4",className)}>
+    <Link href={`/product/${productString}`} className={cn("bg-white group cursor-pointer rounded-md border p-3 space-y-4 shadow-lg",className)}>
       {/* Image & actions */}
       <div className="aspect-square rounded-md bg-gray-100 relative">
         <Image 

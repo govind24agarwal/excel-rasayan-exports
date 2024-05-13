@@ -28,11 +28,11 @@ const Hamburger: React.FC<HamburgerProps> = ({
   return (
     <Sheet open={isShowMenu} onOpenChange={setIsShowMenu}>
       <SheetTrigger>
-        <MenuIcon size={20} className="text-gray-600" />
+        <MenuIcon color="white" size={20} className="text-gray-600" />
       </SheetTrigger>
       <SheetContent side="left" className='bg-gradient-to-b from-[#2b7535] to-[#399e47] overflow-hidden p-0'>
         <SheetHeader className='bg-white py-4 px-2 border-b-2 border-teal-900'>
-          <SheetTitle className='text-left '>EXCEL RASAYAN EXPORT</SheetTitle>
+          <SheetTitle className='text-left'>EXCEL RASAYAN EXPORT</SheetTitle>
         </SheetHeader>
         <div className='relative flex flex-col gap-5 h-full'>
           <div className='flex flex-col gap-5 p-4'>
